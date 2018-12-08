@@ -1603,7 +1603,7 @@
 			baseConfigurationReference = E4085EBA5BAE333237168272 /* Pods-themoviedb_pof.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Z8WC7W7LL3;
+				DEVELOPMENT_TEAM = R2V67FH6WA;
 				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/themoviedb_pof/SupportingFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1622,7 +1622,7 @@
 			baseConfigurationReference = 605A57ECA828138E839488F3 /* Pods-themoviedb_pof.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Z8WC7W7LL3;
+				DEVELOPMENT_TEAM = R2V67FH6WA;
 				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/themoviedb_pof/SupportingFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (

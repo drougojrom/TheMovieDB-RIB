@@ -11,7 +11,7 @@ import Foundation
 struct ClientConfig {
     
     // MARK: API Key
-    static let ApiKey = "3eb3d7f266de016cc24dc53be71deb61"
+    static let ApiKey = "###ADD_API_KEY###"
         
     // MARK: URLs
     static let ApiScheme = "https://"
