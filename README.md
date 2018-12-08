@@ -11,7 +11,7 @@ Here you can see how RIB modules work together, talk to The Movie DB API and the
 # Installation:
 
 1. run ``` pod update ``` and open .xcworkspace file.
-2. Add the movie db token into ClientConfig file
+2. Add the movie db token into ClientConfig file or use the default one
 3. Run
 
 <img src="https://user-images.githubusercontent.com/16073082/49691455-a5085480-fb42-11e8-8e40-825c3dfb76d8.png" width="250">
