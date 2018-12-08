@@ -1,0 +1,64 @@
+{
+  "adult": false,
+  "backdrop_path": "/xwEtJVliloiuICXoyqjyTZM9qRc.jpg",
+  "belongs_to_collection": {
+    "id": 372257,
+    "name": "The Poseidon Adventure Collection",
+    "poster_path": null,
+    "backdrop_path": null
+  },
+  "budget": 5000000,
+  "genres": [
+    {
+      "id": 28,
+      "name": "Action"
+    },
+    {
+      "id": 12,
+      "name": "Adventure"
+    }
+  ],
+  "homepage": null,
+  "id": 551,
+  "imdb_id": "tt0069113",
+  "original_language": "en",
+  "original_title": "The Poseidon Adventure",
+  "overview": "The Poseidon Adventure was one of the first Catastrophe films and began the Disaster Film genre. Director Neame tells the story of a group of people that must fight for their lives aboard a sinking ship. Based on the novel by Paul Gallico.",
+  "popularity": 7.739452,
+  "poster_path": "/o7mRqnYg3YJNXxHUWa0TeSzR84d.jpg",
+  "production_companies": [
+    {
+      "id": 10281,
+      "logo_path": null,
+      "name": "Kent Productions",
+      "origin_country": ""
+    },
+    {
+      "id": 25,
+      "logo_path": "/qZCc1lty5FzX30aOCVRBLzaVmcp.png",
+      "name": "20th Century Fox",
+      "origin_country": "US"
+    }
+  ],
+  "production_countries": [
+    {
+      "iso_3166_1": "US",
+      "name": "United States of America"
+    }
+  ],
+  "release_date": "1972-12-01",
+  "revenue": 84563118,
+  "runtime": 117,
+  "spoken_languages": [
+    {
+      "iso_639_1": "en",
+      "name": "English"
+    }
+  ],
+  "status": "Released",
+  "tagline": "Who will survive-in one of the greatest escape adventures ever!",
+  "title": "The Poseidon Adventure",
+  "video": false,
+  "vote_average": 7.3,
+  "vote_count": 325
+}
