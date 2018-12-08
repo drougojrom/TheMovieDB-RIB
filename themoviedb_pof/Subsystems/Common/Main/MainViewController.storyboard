@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Main View Controller-->
+        <scene sceneID="GzV-lN-fg7">
+            <objects>
+                <viewController storyboardIdentifier="MainViewController" id="vKn-9P-Ny8" customClass="MainViewController" customModule="themoviedb_pof" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="BNZ-bO-rhc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FHm-BU-Rfi">
+                                <rect key="frame" x="0.0" y="567" width="125" height="100"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9lX-3F-GMF">
+                                        <rect key="frame" x="37" y="25" width="50" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="BNp-wh-3Pe"/>
+                                            <constraint firstAttribute="width" secondItem="9lX-3F-GMF" secondAttribute="height" multiplier="1:1" id="U0X-OD-8XB"/>
+                                        </constraints>
+                                        <state key="normal" image="heart"/>
+                                        <state key="selected" image="heart-filled"/>
+                                        <connections>
+                                            <action selector="tabBarButtonTappedWithSender:" destination="vKn-9P-Ny8" eventType="touchUpInside" id="FRt-uO-iCm"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.2901960784" green="0.41176470590000003" blue="0.66274509800000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="NFy-R0-ihh"/>
+                                    <constraint firstItem="9lX-3F-GMF" firstAttribute="centerY" secondItem="FHm-BU-Rfi" secondAttribute="centerY" id="QM2-kS-rDw"/>
+                                    <constraint firstItem="9lX-3F-GMF" firstAttribute="centerX" secondItem="FHm-BU-Rfi" secondAttribute="centerX" id="tHW-u6-QWg"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="O96-p7-0SG">
+                                <rect key="frame" x="125" y="567" width="125" height="100"/>
+                                <subviews>
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Brb-E5-cT8">
+                                        <rect key="frame" x="37" y="25" width="50" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="Brb-E5-cT8" secondAttribute="height" multiplier="1:1" id="BvP-dc-O6R"/>
+                                            <constraint firstAttribute="width" constant="50" id="agX-D8-iXb"/>
+                                        </constraints>
+                                        <state key="normal" image="movie"/>
+                                        <state key="selected" image="movie-filled"/>
+                                        <connections>
+                                            <action selector="tabBarButtonTappedWithSender:" destination="vKn-9P-Ny8" eventType="touchUpInside" id="VA2-OG-7SE"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.2901960784" green="0.41176470590000003" blue="0.66274509800000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="Brb-E5-cT8" firstAttribute="centerY" secondItem="O96-p7-0SG" secondAttribute="centerY" id="MoX-Z8-E2R"/>
+                                    <constraint firstItem="Brb-E5-cT8" firstAttribute="centerX" secondItem="O96-p7-0SG" secondAttribute="centerX" id="PPW-yF-m9p"/>
+                                    <constraint firstAttribute="height" constant="100" id="anu-xK-My0"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qUu-pp-Yq8">
+                                <rect key="frame" x="250" y="567" width="125" height="100"/>
+                                <subviews>
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5O8-s5-5wi">
+                                        <rect key="frame" x="37" y="25" width="50" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="50" id="HxO-Ay-JcF"/>
+                                        </constraints>
+                                        <state key="normal" image="star"/>
+                                        <state key="selected" image="star-filled"/>
+                                        <connections>
+                                            <action selector="tabBarButtonTappedWithSender:" destination="vKn-9P-Ny8" eventType="touchUpInside" id="BNs-Q1-s64"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.2901960784" green="0.41176470590000003" blue="0.66274509800000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="5O8-s5-5wi" firstAttribute="centerY" secondItem="qUu-pp-Yq8" secondAttribute="centerY" id="hBG-aE-ayn"/>
+                                    <constraint firstItem="5O8-s5-5wi" firstAttribute="centerX" secondItem="qUu-pp-Yq8" secondAttribute="centerX" id="lTj-4D-BPq"/>
+                                    <constraint firstAttribute="height" constant="100" id="mPy-VG-Puq"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zFg-Z4-uso">
+                                <rect key="frame" x="0.0" y="64" width="375" height="503"/>
+                            </view>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="HgA-Aw-ocO" firstAttribute="bottom" secondItem="O96-p7-0SG" secondAttribute="bottom" id="00i-1q-F8f"/>
+                            <constraint firstItem="zFg-Z4-uso" firstAttribute="leading" secondItem="HgA-Aw-ocO" secondAttribute="leading" id="20E-5F-Zmj"/>
+                            <constraint firstItem="HgA-Aw-ocO" firstAttribute="bottom" secondItem="FHm-BU-Rfi" secondAttribute="bottom" id="3Z7-pF-bPg"/>
+                            <constraint firstItem="FHm-BU-Rfi" firstAttribute="top" secondItem="zFg-Z4-uso" secondAttribute="bottom" id="7dh-5J-YJj"/>
+                            <constraint firstItem="O96-p7-0SG" firstAttribute="leading" secondItem="FHm-BU-Rfi" secondAttribute="trailing" id="GWh-sP-ld5"/>
+                            <constraint firstItem="HgA-Aw-ocO" firstAttribute="bottom" secondItem="qUu-pp-Yq8" secondAttribute="bottom" id="Gov-G1-S5b"/>
+                            <constraint firstItem="O96-p7-0SG" firstAttribute="width" secondItem="FHm-BU-Rfi" secondAttribute="width" id="I0c-2P-fJh"/>
+                            <constraint firstItem="qUu-pp-Yq8" firstAttribute="width" secondItem="FHm-BU-Rfi" secondAttribute="width" id="Iyo-oO-ISp"/>
+                            <constraint firstItem="FHm-BU-Rfi" firstAttribute="leading" secondItem="BNZ-bO-rhc" secondAttribute="leading" id="L49-60-5dX"/>
+                            <constraint firstAttribute="trailing" secondItem="qUu-pp-Yq8" secondAttribute="trailing" id="VxO-gp-rxk"/>
+                            <constraint firstItem="HgA-Aw-ocO" firstAttribute="trailing" secondItem="zFg-Z4-uso" secondAttribute="trailing" id="cps-P6-rER"/>
+                            <constraint firstItem="qUu-pp-Yq8" firstAttribute="leading" secondItem="O96-p7-0SG" secondAttribute="trailing" id="dR7-yC-5w2"/>
+                            <constraint firstItem="zFg-Z4-uso" firstAttribute="top" secondItem="HgA-Aw-ocO" secondAttribute="top" id="yYm-8r-MXH"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="HgA-Aw-ocO"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="us6-aY-VOr">
+                        <barButtonItem key="rightBarButtonItem" title="Logout" id="79H-xe-dre">
+                            <connections>
+                                <action selector="logoutBarButtonTappedWithSender:" destination="vKn-9P-Ny8" id="162-Mq-JZH"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <connections>
+                        <outlet property="containerView" destination="zFg-Z4-uso" id="4sh-zB-jUW"/>
+                        <outlet property="logoutBarButton" destination="79H-xe-dre" id="sOD-fm-N86"/>
+                        <outletCollection property="tabBarButtons" destination="9lX-3F-GMF" collectionClass="NSMutableArray" id="vyT-PN-Kp7"/>
+                        <outletCollection property="tabBarButtons" destination="Brb-E5-cT8" collectionClass="NSMutableArray" id="bKI-Z2-rgv"/>
+                        <outletCollection property="tabBarButtons" destination="5O8-s5-5wi" collectionClass="NSMutableArray" id="54U-XT-pI9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="k0X-am-vwV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1183.2" y="204.64767616191907"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="heart" width="50" height="50"/>
+        <image name="heart-filled" width="50" height="50"/>
+        <image name="movie" width="50" height="50"/>
+        <image name="movie-filled" width="50" height="50"/>
+        <image name="star" width="50" height="50"/>
+        <image name="star-filled" width="50" height="50"/>
+    </resources>
+</document>

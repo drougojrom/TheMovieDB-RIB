@@ -1,0 +1,90 @@
+{
+  "page": 1,
+  "results": [
+    {
+      "adult": false,
+      "backdrop_path": "/roYyPiQDQKmIKUEhO912693tSja.jpg",
+      "genre_ids": [
+        18,
+        27,
+        878,
+        53
+      ],
+      "id": 447332,
+      "original_language": "en",
+      "original_title": "A Quiet Place",
+      "overview": null,
+      "release_date": "2018-04-05",
+      "poster_path": "/nAU74GmpUk7t5iklEp3bufwDq4n.jpg",
+      "popularity": 107.718094,
+      "title": "A Quiet Place",
+      "video": false,
+      "vote_average": 7.4,
+      "vote_count": 841
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/mhdeE1yShHTaDbJVdWyTlzFvNkr.jpg",
+      "genre_ids": [
+        12,
+        16,
+        35,
+        10751
+      ],
+      "id": 269149,
+      "original_language": "en",
+      "original_title": "Zootopia",
+      "overview": null,
+      "release_date": "2016-02-11",
+      "poster_path": "/sM33SANp9z6rXW8Itn7NnG1GOEs.jpg",
+      "popularity": 311.84842,
+      "title": "Zootopia",
+      "video": false,
+      "vote_average": 7.7,
+      "vote_count": 7111
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/askg3SMvhqEl4OL52YuvdtY40Yb.jpg",
+      "genre_ids": [
+        12,
+        16,
+        35,
+        10751
+      ],
+      "id": 354912,
+      "original_language": "en",
+      "original_title": "Coco",
+      "overview": null,
+      "release_date": "2017-01-05",
+      "poster_path": "/eKi8dIrr8voobbaGzDpe8w0PVbC.jpg",
+      "popularity": 165.647391,
+      "title": "Coco",
+      "video": false,
+      "vote_average": 7.8,
+      "vote_count": 4189
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/6aUWe0GSl69wMTSWWexsorMIvwU.jpg",
+      "genre_ids": [
+        14,
+        10749,
+        10751
+      ],
+      "id": 321612,
+      "original_language": "en",
+      "original_title": "Beauty and the Beast",
+      "overview": null,
+      "release_date": "2017-03-16",
+      "poster_path": "/tWqifoYuwLETmmasnGHO7xBjEtt.jpg",
+      "popularity": 132.855777,
+      "title": "Beauty and the Beast",
+      "video": false,
+      "vote_average": 6.8,
+      "vote_count": 8113
+    }
+  ],
+  "total_pages": 1,
+  "total_results": 4
+}
