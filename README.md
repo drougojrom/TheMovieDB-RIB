@@ -8,11 +8,11 @@ Sample project using RIB architecture pattern from [Uber](https://github.com/ube
 
 Here you can see how RIB modules work together, talk to The Movie DB API and then save everything into [Realm](https://github.com/realm/realm-cocoa) DB.
 
-# DON'T FORGET TO ADD YOUR ACCESS TOKEN FROM THE MOVIE DB!
-
 # Installation:
 
-run ``` pod update ``` and open .xcworkspace file.
+1. run ``` pod update ``` and open .xcworkspace file.
+2. Add the movie db token into ClientConfig file
+3. Run
 
 <img src="https://user-images.githubusercontent.com/16073082/49691455-a5085480-fb42-11e8-8e40-825c3dfb76d8.png" width="250">
 <img src="https://user-images.githubusercontent.com/16073082/49691456-a6398180-fb42-11e8-9b8d-5dc415637552.png" width="250">
