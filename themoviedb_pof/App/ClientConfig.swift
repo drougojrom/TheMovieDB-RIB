@@ -10,9 +10,9 @@ import Foundation
 
 struct ClientConfig {
     
-    // MARK: API Key
-    static let ApiKey = "###ADD_API_KEY###"
-        
+    // MARK: default API Key
+    static let ApiKey = "b68340e52ed0a8cda8fbb2aafb269a77"
+    
     // MARK: URLs
     static let ApiScheme = "https://"
     static let ApiHost = "api.themoviedb.org"
